@@ -1,0 +1,7 @@
+#include<stdio.h>
+int main(void)
+{
+	printf("从零开始入坑C++\n");
+
+	return 0;
+}
