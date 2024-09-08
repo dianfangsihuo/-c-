@@ -1,0 +1,10 @@
+#include<stdio.h>
+int main()
+{
+	int d;
+	scanf("%d", &d);
+	printf("%.2f", d * 6.5573);
+
+
+	return 0;
+}
