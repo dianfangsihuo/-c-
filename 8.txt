@@ -1,0 +1,10 @@
+#include<stdio.h>
+int main()
+{
+	int h, f, s, c;
+	scanf("%d%d", &h, &f);
+	s = h * 4;
+	c = s - f;
+	printf("%d %d\n", c / 2, h - (c / 2));
+	return 0;
+}
