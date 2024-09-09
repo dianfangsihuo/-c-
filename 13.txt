@@ -1,0 +1,10 @@
+#include<stdio.h>
+#include<math.h>
+int main()
+{
+	double r, j;
+	scanf("%lf", &r);
+	j = fabs(r);
+	printf("%.2f", j);
+	return 0;
+}
