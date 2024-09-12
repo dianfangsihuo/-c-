@@ -1,0 +1,10 @@
+#include<stdio.h>
+#include<math.h>
+int main()
+{
+	int r,w;
+	scanf("%d", &r);
+	w = (r < 30) ? r * 50 : 1440 + (r - 30) * 48;
+	printf("%d\n", w);
+	return 0;
+}
